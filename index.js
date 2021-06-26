@@ -9,8 +9,6 @@ console.clear()
 
 const main = async () => {
 
-    console.log('Hola Mundo')
-
     let opt = ''
     const tareas = new Tareas()
 
@@ -27,7 +25,7 @@ const main = async () => {
             break;
             case '2':
                 //listar tareas 
-                console.log( tareas._listado )
+                console.log( tareas.listadoArr)
             break;
 
                 
