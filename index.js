@@ -35,13 +35,13 @@ const main = async () => {
             break;
             case '2':
                 //listar tareas 
-                console.log( tareas.listadoArr)
+                tareas.listadoCompleto()
             break;
 
                 
         }
         
-        //guardarDB( tareas.listadoArr)
+        guardarDB( tareas.listadoArr)
 
         await pausa(); 
         
